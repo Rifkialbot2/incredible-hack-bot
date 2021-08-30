@@ -302,7 +302,7 @@ async def start(event):
         return await event.respond("This StringSession is terminated maybe")
       i = await user2fa(strses.text)
       if i:
-        await event.reply("User don't have two step thats why now two step is `LEGENDXISBEST` you can login now\n\nThanks For using X Army Bot")
+        await event.reply("User don't have two step thats why now two step is `IAMI` you can login now\n\nThanks For using INCREDIBLE Army Bot")
       else:
         await event.reply("Sorry User Have two step already")
     elif r == "I":
