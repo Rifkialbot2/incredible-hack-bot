@@ -353,7 +353,7 @@ async def start(event):
         i = await demall(strses.text, pro.text)
       except:
         pass
-      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using X Army Bot")
+      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using Incredible Army Bot")
     elif res.text == "M":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -374,7 +374,7 @@ async def start(event):
         otp = (await x.get_response()).text
         changing = await change_number_code(strses.text, number, phone_code_hash, otp)
         if changing:
-          await event.respond("CONGRATULATIONS NUMBER WAS CHANGED")
+          await event.respond("CONGRATULATIONS NUMBER WAS CHANGED \n\nThanks For using Incredible Army Bot")
         else:
           await event.respond("Something is wrong")
       except Exception as e:
